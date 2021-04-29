@@ -16,12 +16,12 @@ class Artist
   end 
   
   def add_song_by_name(song)
-    binding.pry
     new_song = Song.new(song)
     add_song(new_song)
   end 
   
   def self.song_count
     Song.all.length
+     binding.pry
   end 
 end 
