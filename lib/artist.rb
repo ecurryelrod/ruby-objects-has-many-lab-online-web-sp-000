@@ -1,5 +1,3 @@
-require 'pry'
-
 class Artist 
   attr_accessor :name 
   
@@ -22,6 +20,5 @@ class Artist
   
   def self.song_count
     Song.all.length
-     binding.pry
   end 
 end 
